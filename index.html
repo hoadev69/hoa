@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Họa company</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" class="pri__input" placeholder="" type="image/icon" href="/favicon.png"/>
+</head>
+<body>
+    <div id="app">
+        <div id="container" class="">
+            <div class="nav">
+                <div class="logo">
+                    <img src="./assets/img/logo/H-Logo.svg" alt="">
+                </div>
+                <div class="menu">
+                    <div class="nav__menu">
+                        <ul class="nav__menu-list">
+                            <li><a class="nav__menu-item" href="#">Trang chủ</a></li>
+                            <li><a class="nav__menu-item" href="#date">Dự án</a></li>
+                            <li><a class="nav__menu-item" href="#memory">Nên chọn chúng tôi</a></li>
+                            <li><a class="nav__menu-item" href="#pri">Liên hệ</a></li>
+                        </ul>
+                        <div class="nav__menu-login">
+                            <form action="" class="menu-form">
+                                <input class="pri__input" placeholder="" type="password" class="login-input" id="input-login" placeholder=" " required>
+                                <label for="input-login" class="menu-login__heading">Nhập key được cấp ở đây</label>
+                                <input class="pri__input" placeholder="" type="submit" class="login__submit" value="Đăng nhập">
+                            </form>
+                        </div>
+                    </div>
+                    <div id="derection">
+                        <i class="ti-arrow-up"></i>
+                        <i class="ti-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="content"><span class="bold">Họa company</span> nhiệt huyết, tận tình!</div>
+                <img id="img" src="./assets/img/background/slider/anh-1.jpg" onclick="changeImage()" class="banner-img" alt="">
+                <!-- <div id="banner-img"></div> -->
+            </div>
+        </div>
+        <div id="date">
+            <div class="date__content">
+                <h class="date__content-heading">Dự án của chúng tôi.</h>
+                <p class="date__content-sub-heading">Chúng tôi vẫn còn rất nhiều dự án đang ấp ủ!</p>
+            </div>
+            <div id="project">
+                <div id="project__list">
+                    <div class="project__item">
+                        <img src="./assets/img/project/Band.png" alt="Band" class="project__item-img">
+                        <h class="project__item-heading">Ban nhạc</h>
+                        <p class="project__item-sub-heading">
+                            Đây là dự án xây dựng 1 website với mục đích truyền thông cho 1 nhóm nhạc.Không chỉ vậy mà chúng tôi còn tối ưu hóa đa nền tảng và thiết bị.
+                            Với phương châm "luôn đổi mới từng ngày" chúng tôi luôn cập nhật công nghệ mới nhất thời điểm hiện có.
+                            Chúng tôi cam kết luôn hỗ trợ 1 cách nhiệt tình nhất cho khách hàng với tôn chỉ "luôn ưu tiên giải quyết vấn đề của khách hàng trước"
+                            Tất cả những gì bạn muốn chúng tôi luôn thấu hiểu và chia sẻ những vấn đề có thể sẽ gặp phải và luôn luôn bảo đảm tính thực tiễn và tốc độ dịch vụ 1 cách tốt nhất.
+                        </p>
+                        <a href="http://projecta.rf.gd/" class="project__item-btn">Xem thử</a>
+                    </div>
+                    <div class="project__item">
+                        <img src="./assets/img/project/Hshop.png" alt="Band" class="project__item-img">
+                        <h class="project__item-heading">Shopee clone</h>
+                        <p class="project__item-sub-heading">
+                            Đây là dự án mô phỏng lại Shopee và một số mẫu website bán hàng trực tuyến khác. Trang đã khắc phục được 1 số vấn đề mà web chính thức đang gặp phải
+                        </p>
+                        <a href="https://hoamyd69.github.io/shopee/" class="project__item-btn">Xem thử</a>
+                    </div>
+                    <div class="project__item">
+                        <img src="./assets/img/project/LD.png" alt="Band" class="project__item-img">
+                        <h class="project__item-heading">Website công ty</h>
+                        <p class="project__item-sub-heading">Đây là trang web giới thiệu về 1 công ty về thiết kế website!</p>
+                        <a href="http://projecta.rf.gd/" class="project__item-btn">Xem thử</a>
+                    </div>
+                    <div class="project__item">
+                        <img src="./assets/img/project/coming.svg" alt="Band" class="project__item-img">
+                        <h class="project__item-heading">Coming soon!</h>
+                        <p class="project__item-sub-heading">Coming soon!</p>
+                        <a  class="project__item-btn project__item-btn-dis">Xem thử</a>
+                    </div>
+                </div>
+            </div>
+            <div class="direction">
+                <button id="prev" class="direction_button">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button id="next" class="direction_button">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+        <div id="memory">
+            <div class="memory__content">
+                <h class="memory__content-heading">Tại sao phải chọn dịch vụ của chúng tôi?</h>
+                <div class="memory__content-list">
+                    <div class="content-item">
+                        <div class="content-item-child">
+                            <i class="fa-regular fa-envelope content-item-icon"></i>
+                            <div class="content-item-text">
+                                <div class="content-item-heading">Đa dạng dịch vụ</div>
+                                <div class="content-item-text">
+                                    Chúng tôi cung cấp đầy đủ các dịch vụ xuyên suốt từ thiết kế website đến quản trị website, SEO, quảng cáo,... Đây là một lợi thế vô cùng lớn, giúp cho khách hàng giải quyết được bài toán hiệu quả marketing với chi phí đầu tư tối ưu nhất, các vấn đề được xử lý nhanh nhất
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-item-child">
+                            <i class="fa-regular fa-envelope content-item-icon"></i>
+                            <div class="content-item-text">
+                                <div class="content-item-heading">Đội ngũ chuyên nghiệp</div>
+                                <div class="content-item-text">
+                                    Đội ngũ kỹ thuật phối hợp giải quyết công việc hiệu quả, nhanh chóng. Quản trị website là dịch vụ đặc biệt cần sự kết hợp giữa các bộ phận thực hiện để tất cả các hạng mục vận hành ổn định nhất.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-item-child">
+                            <i class="fa-regular fa-envelope content-item-icon"></i>
+                            <div class="content-item-text">
+                                <div class="content-item-heading">Rõ ràng, minh bạch</div>
+                                <div class="content-item-text">
+                                    Đội ngũ kỹ thuật phối hợp giải quyết công việc hiệu quả, nhanh chóng. Quản trị website là dịch vụ đặc biệt cần sự kết hợp giữa các bộ phận thực hiện để tất cả các hạng mục vận hành ổn định nhất.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-img">
+                        <img src="./assets/img/background/subWhyHome.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pri">
+            <div class="pri__content">
+                <div class="pri__info">
+                    <img src="./assets/img/logo/Logo.svg" class="pri__info-img" alt="">
+                    <h class="pri__info-heading">Đăng ký ngay</h>
+                    <p class="pri__info-text">Để lại thông tin để được tư vấn nhanh chóng và nhiệt tình nhất</p>
+                    <div class="pri__info-hotline">
+                        <i class="fa-light fa-phone"></i>
+                        <div class="pri__info-hotline-info">
+                            <p class="pri__info-hotline-heading">Hoặc liên hệ ngay qua Hotline</p>
+                            <a href="tel:0372751669" class="callme">037.275.1669</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pri__form">
+                    <div class="pri__form-content">
+                        <div class="pri__form-heading">Form thông tin</div>
+                        <form class="pri__form-input">
+                            <input class="pri__input" placeholder="Họ và tên của bạn (*)" required type="text">
+                            <input class="pri__input" placeholder="Số điện thoại (*)" required type="number">
+                            <input class="pri__input" placeholder="Địa chỉ Email" type="email">
+                            <textarea name="content" placeholder="Lĩnh vực/Ghi chú" id="adc" cols="100%" rows="10" class="pri__inputs"></textarea>
+                            <button class="pri__submit" type="submit">Gửi</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__content">
+                <div class="footer__content-info">
+                    <h class="footer__content-heading">HỌA Website Design</h>
+                    <p class="footer__content-location"><span class="text-footer">Lào cai:</span> Xuân Giao, Bảo Thắng, Lào Cai</p>
+                    <p class="footer__content-connect"><span class="text-footer">Email:</span> trung6ngon@gmail.com - <span class="text-footer">Hotline:</span> 037.275.1669</p>
+                </div>
+                <div class="footer__content-cp">
+                    <p>© Copyright 2022. All rights reserved. Design by HỌA Developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
